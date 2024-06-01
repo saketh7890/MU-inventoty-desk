@@ -1,0 +1,67 @@
+.maintext{
+    background-color: rgb(234, 230, 230);
+    width: 250px;
+    height: 300px;
+    padding: 55px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.5);
+   
+}
+
+.outercont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-image: url(patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.maintext h1{
+
+    font-size: 30px;
+    color:rgb(36, 29, 29);
+    height: 4px;
+    margin: 10px auto 50px auto;
+}
+.inputfield{
+    background: #bcbaba;
+    margin: 15px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+
+}
+.inputfield input{
+    width: 100%;
+    background: transparent;
+    border:0;
+    outline: 0;
+    padding: 16px 16px;
+}
+.inputfield i{
+    margin-left: 15px;
+    color: #999;
+}
+.maintext button{
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: rgb(37, 37, 131);
+    color: white;
+    cursor: pointer;
+    transition: background 0.1s;
+    transition-delay:0.1s ;
+    
+}
+#para{
+    color: rgb(30, 233, 199);
+}
+#sign:hover{
+background-color: rgb(25, 69, 120);
+}

@@ -1,0 +1,66 @@
+/* Additional Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #cfe2f3; /* Light blue background color */
+  color: #000; /* Black text color */
+  font-family: Arial, sans-serif; /* Font style */
+  margin: 0;
+}
+
+.whole {
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.compartments {
+  margin-bottom: 20px;
+}
+
+.compartments select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px 15px;
+}
+
+.time-slots {
+  margin-bottom: 20px;
+}
+
+.slot {
+  padding: 10px 20px;
+  border: 1px solid #fff; /* White border */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #8dc3f7; /* Light blue background color for slots */
+}
+
+.slot:hover {
+  background-color: #6bafe5; /* Darker blue color on hover */
+}
+
+.slot.selected {
+  background-color: #4e9cd0; /* Dark blue color for selected slot */
+}
+
+#btn {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color for button */
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}

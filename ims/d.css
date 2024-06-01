@@ -1,0 +1,123 @@
+/*h1{
+    color: red;
+
+}*/
+
+
+.lab{
+
+    height: 500px;
+    width: 800px;
+    background-color: rgb(176, 107, 22);
+    border-radius: 15px;
+    background-color: rgb(204, 204, 204);
+    
+ 
+
+}
+
+.faculty{
+
+    height: 300px;
+    width: 800px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 15px;
+    
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+
+.image{
+   
+    color: white;
+    height: 500px;
+    position: relative;
+    isolation: isolate;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-direction: column;
+  color: rgb(118, 233, 160);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+   
+   
+ 
+  
+  
+
+}
+.image::after{
+
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: white;
+    opacity: 0.65;
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.btn-lay{
+   
+    height: 40px;
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(239, 239, 239);
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    border-radius: 5px;
+   
+   
+}
+.image2{
+
+    color: black;
+    height: 300px;
+    position: relative;
+    isolation: isolate;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-direction: column;
+  color: rgb(112, 239, 180);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.image2::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: white;
+    opacity: 0.65;
+    background-image: url(OIP.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Logout{
+
+    margin-left: 700px;
+    height: 38px;
+    width: 100px;
+    cursor: pointer;
+    transition: background 0.1s;
+    transition-delay:0.1s ;
+    background-color:  #80669d;
+    border-radius: 9px;
+    color: white;
+
+}
+
+.Logout:hover{
+    background-color: #644883;
+}
